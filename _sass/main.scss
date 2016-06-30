@@ -178,6 +178,12 @@ span[data-note] {
     }
   }
 }
+.rtl {
+  direction: rtl;
+  .post-date {
+    float: left;
+  }
+}
 iframe {
   margin: 45px 0 !important;
 }
