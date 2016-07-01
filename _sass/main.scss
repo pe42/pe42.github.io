@@ -1,5 +1,9 @@
+$font-body:  'Fira Sans', sans-serif;
+$font-body-fa:  BMitra,'BMitra',Tahoma, Airal;
+$font-code:   Consolas, monospace, x;
+
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: $font-body;
   padding: 20px;
   margin: 0;
   font-weight: 400;
@@ -8,16 +12,22 @@ body {
   @media (min-width: 992px) {
     padding: 35px 50px;
   }
+  :lang(fa) {
+    font-family: $font-body-fa;
+  }
 }
+
 h2,
 h3,
 h4,
 h5 {
   margin: 45px 0 25px;
 }
+
 img {
   max-width: 100%;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -30,16 +40,19 @@ a {
     margin: 30px 0;
   }
 }
+
 mark {
   background: #fffc76;
   padding: 0 5px;
 }
+
 blockquote {
   border-left: 5px solid #ccc;
   margin: 40px 0;
   padding: 5px 30px;
   background: #eee;
 }
+
 span[data-note] {
   font-size: 0.8em;
   background: #c1c1c1;
@@ -65,6 +78,7 @@ span[data-note] {
     }
   }
 }
+
 .note {
   background: #f8f8f8;
   border: 1px solid #ddd;
@@ -107,6 +121,7 @@ span[data-note] {
     }
   }
 }
+
 .logo {
   margin: 0 auto 35px;
   text-align: center;
@@ -178,6 +193,7 @@ span[data-note] {
     }
   }
 }
+
 .rtl {
   direction: rtl;
   .post-date {
@@ -187,9 +203,11 @@ span[data-note] {
       direction: ltr;
   }
 }
+
 iframe {
   margin: 45px 0 !important;
 }
+
 ul,
 ol {
   margin: 40px 0;
@@ -208,19 +226,23 @@ sup {
   top: -0.5em;
   margin-left: 1px;
 }
+
 time {
   color: #555;
 }
+
 code,
 pre {
-  font-family: Consolas, monospace, x;
+  font-family: $font-code;
 }
+
 code {
   color: #f14e32;
   background: #eee;
   padding: 2px 6px;
   font-size: 13px;
 }
+
 pre {
   display: block;
   margin-top: 0;
@@ -239,6 +261,7 @@ pre {
     padding: 0;
   }
 }
+
 table {
   width: 100%;
   table-layout: fixed;
@@ -255,9 +278,11 @@ table {
     padding: 4px 0;
   }
 }
+
 iframe {
   width: 100%;
 }
+
 article {
   max-width: 500px;
   margin: 0 auto;
@@ -298,6 +323,7 @@ article {
     }
   }
 }
+
 .back {
   text-align: center;
   a {
@@ -313,6 +339,7 @@ article {
     }
   }
 }
+
 section {
   max-width: 500px;
   margin: 0 auto;
@@ -355,6 +382,7 @@ section {
     }
   }
 }
+
 @keyframes bounce {0% {
     transform: translate3d( 0, -1000px, 0 );
   }
@@ -371,6 +399,7 @@ section {
     transform: none;
   }
 }
+
 @-webkit-keyframes bounce {0% {
     -webkit-transform: translate3d( 0, -1000px, 0 );
   }
