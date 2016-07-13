@@ -1,9 +1,5 @@
-$font-body:  'Fira Sans', sans-serif;
-$font-body-fa:  BMitra,'BMitra',Tahoma, Airal;
-$font-code:   Consolas, monospace, x;
-
 body {
-  font-family: $font-body;
+  font-family: 'Fira Sans', Fira Sans, sans-serif;
   padding: 20px;
   margin: 0;
   font-weight: 400;
@@ -13,7 +9,7 @@ body {
     padding: 35px 50px;
   }
   :lang(fa) {
-    font-family: $font-body-fa;
+    font-family: BMitra, 'BMitra', Tahoma, Airal;
   }
 }
 
@@ -80,7 +76,7 @@ span[data-note] {
 }
 
 .note {
-  background: #f8f8f8;
+  background: #cccccc;
   border: 1px solid #ddd;
   box-shadow: 0 0 8px rgba( 0, 0, 0, 0.2 );
   padding: 20px 20px 50px;
@@ -233,7 +229,7 @@ time {
 
 code,
 pre {
-  font-family: $font-code;
+  font-family: 'Fira Mono', Fira Mono, Consolas, monospace, Courier, x;
 }
 
 code {
