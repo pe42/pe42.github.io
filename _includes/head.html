@@ -14,11 +14,8 @@
 
 {% include favicons.html %}
 
-{% if site.lang == 'fa' %}
-	<link href='http://www.fontonline.ir/css/BMitra.css' rel='stylesheet' type='text/css'>
-{% else %}
-	<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
-{% endif %}
+<!-- <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css"> -->
+<link rel="stylesheet" href="{{ site.baseurl }}/public/bower_components/vazir-font/dist/font-face.css">
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
 <link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
