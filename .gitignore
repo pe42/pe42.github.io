@@ -1,8 +1,8 @@
-_site/
+#_site/
 .sass-cache/
 
 # Bower components
-bower_components/
+#bower_components/
 
 # Windows image file caches
 Thumbs.db
