@@ -1,8 +1,8 @@
 # Site Info
 title:              "The Plain"
 description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+google_verify:       # Put your Google Verification here
+google_analytics:    # Put your Google Analytics code
 
 # Author Info
 author_name:        "Heiswayi Nrird"
@@ -14,7 +14,7 @@ twitter_username:   HeiswayiNrird
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
 enforce_ssl:        "" # Leave empty if your domain doesn't have https, write the domain if it has
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Tehran # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 direction:          rtl # Text direction. ltr/rtl
 lang:               fa # http://www.w3schools.com/tags/ref_language_codes.asp
 header_image:       "gravatar" # "gravatar" or url to an image
