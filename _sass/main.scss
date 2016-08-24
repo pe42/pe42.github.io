@@ -119,6 +119,7 @@ span[data-note] {
 }
 
 .logo {
+  position: relative;
   margin: 0 auto 35px;
   text-align: center;
   animation-duration: 0.7s;
@@ -176,17 +177,6 @@ span[data-note] {
     line-height: 1.2;
     top: 50%;
     margin-top: -10px;
-    &:before {
-      content: "";
-      border-width: 5px 5px 5px 0;
-      border-style: solid;
-      border-color: transparent #666;
-      border-color: transparent rgba(0,0,0,.5);
-      position: absolute;
-      top: 50%;
-      left: -5px;
-      margin-top: -5px;
-    }
   }
 }
 
